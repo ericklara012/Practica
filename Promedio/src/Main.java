@@ -10,7 +10,7 @@ public class Main {
         String z = JOptionPane.showInputDialog("Dame un valor");
         System.out.println (Integer.parseInt(z));
         float a = (float) (Integer.parseInt(x) + Integer.parseInt(y) + Integer.parseInt(z)) / 3;
-        System.out.println(a);
+        System.out.println("El promedio es: " + a);
 
     }
 }
